@@ -8,11 +8,11 @@ public class Main {
             animal.makeNoise();
             animal.eat();
             // casting can fly and check instaceof
-            if (animal instanceof CanFly) {
-                goFly((CanFly) animal);
+            if (animal instanceof Volante) {
+                faiVolare((Volante) animal);
             }
-            if (animal instanceof CanSwim) {
-                goSwim((CanSwim) animal);
+            if (animal instanceof Nuotante) {
+                faiNuotare((Nuotante) animal);
             }
             animal.sleep();
         }
@@ -20,11 +20,11 @@ public class Main {
 
     }
 
-    public static void  goFly(CanFly animal){
+    public static void  faiVolare(Volante animal){
         animal.fly();
     }
 
-    public static void  goSwim(CanSwim animal){
+    public static void  faiNuotare(Nuotante animal){
         animal.swim();
     }
 }

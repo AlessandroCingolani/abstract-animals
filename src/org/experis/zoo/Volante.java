@@ -1,5 +1,5 @@
 package org.experis.zoo;
 
-public interface CanFly {
+public interface Volante {
     void fly();
 }

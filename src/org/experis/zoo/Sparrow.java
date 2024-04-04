@@ -1,6 +1,6 @@
 package org.experis.zoo;
 
-public class Sparrow extends Animal implements CanFly {
+public class Sparrow extends Animal implements Volante {
 
 
     public Sparrow(String race) {

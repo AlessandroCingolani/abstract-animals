@@ -1,5 +1,5 @@
 package org.experis.zoo;
 
-public interface CanSwim {
+public interface Nuotante {
     void swim();
 }

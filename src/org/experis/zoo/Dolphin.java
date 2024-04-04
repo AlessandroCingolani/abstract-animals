@@ -1,6 +1,6 @@
 package org.experis.zoo;
 
-public class Dolphin extends Animal implements CanSwim{
+public class Dolphin extends Animal implements Nuotante {
     public Dolphin(String race) {
         super(race);
     }
