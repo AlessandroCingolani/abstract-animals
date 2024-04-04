@@ -9,5 +9,16 @@ public class Main {
             animal.eat();
             animal.sleep();
         }
+
+        goFly(new Sparrow("Fred"));
+        goSwim(new Dolphin("Bill"));
+    }
+
+    public static void  goFly(CanFly animal){
+        animal.fly();
+    }
+
+    public static void  goSwim(CanSwim animal){
+        animal.swim();
     }
 }

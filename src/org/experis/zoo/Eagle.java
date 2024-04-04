@@ -17,6 +17,6 @@ public class Eagle  extends Animal implements CanFly{
 
     @Override
     public void fly() {
-        System.out.println("I can flyyy!");
+        System.out.println("Im a eagle and i can flyyy!");
     }
 }
