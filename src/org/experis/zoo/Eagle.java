@@ -1,6 +1,6 @@
 package org.experis.zoo;
 
-public class Eagle  extends Animal{
+public class Eagle  extends Animal implements CanFly{
     public Eagle(String race) {
         super(race);
     }
@@ -13,5 +13,10 @@ public class Eagle  extends Animal{
     @Override
     public void eat() {
         System.out.println("Nom Nom eat: meat");
+    }
+
+    @Override
+    public void fly() {
+        System.out.println("I can flyyy!");
     }
 }

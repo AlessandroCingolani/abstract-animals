@@ -15,4 +15,5 @@ public class Dog extends Animal{
     public void eat() {
         System.out.println("Nom Nom eat: meat");
     }
+
 }

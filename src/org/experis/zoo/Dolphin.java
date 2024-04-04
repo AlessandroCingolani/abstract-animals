@@ -1,6 +1,6 @@
 package org.experis.zoo;
 
-public class Dolphin extends Animal{
+public class Dolphin extends Animal implements CanSwim{
     public Dolphin(String race) {
         super(race);
     }
@@ -13,5 +13,10 @@ public class Dolphin extends Animal{
     @Override
     public void eat() {
         System.out.println("Nom Nom eat: fish");
+    }
+
+    @Override
+    public void swim() {
+        System.out.println("I can swimm!");
     }
 }
