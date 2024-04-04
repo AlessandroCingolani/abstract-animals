@@ -7,11 +7,17 @@ public class Main {
             System.out.println(animal.getRace());
             animal.makeNoise();
             animal.eat();
+            // casting can fly and check instaceof
+            if (animal instanceof CanFly) {
+                goFly((CanFly) animal);
+            }
+            if (animal instanceof CanSwim) {
+                goSwim((CanSwim) animal);
+            }
             animal.sleep();
         }
 
-        goFly(new Sparrow("Fred"));
-        goSwim(new Dolphin("Bill"));
+
     }
 
     public static void  goFly(CanFly animal){
